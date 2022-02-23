@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App page testing snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class=""
+  >
+    <div
+      class="position-relative form-group"
+    >
+      <label
+        class=""
+        for="exampleSelect"
+      >
+        Select
+      </label>
+      <select
+        class="form-control"
+        id="exampleSelect"
+        name="type"
+      >
+        <option>
+          None
+        </option>
+        <option>
+          Snacks
+        </option>
+        <option>
+          Drinks
+        </option>
+      </select>
+    </div>
+    <div
+      class="position-relative form-group"
+    >
+      <label
+        class=""
+        for="typeName"
+      >
+        Name
+      </label>
+      <input
+        class="form-control"
+        id="typeName"
+        name="name"
+        placeholder="Name"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="position-relative form-group"
+    >
+      <label
+        class=""
+        for="typeDescription"
+      >
+        Description
+      </label>
+      <input
+        class="form-control"
+        id="typeDescription"
+        name="description"
+        placeholder="Description"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="position-relative form-group"
+    >
+      <label
+        class=""
+        for="recipe"
+      >
+        Recipe
+      </label>
+      <input
+        class="form-control"
+        id="recipe"
+        name="recipe"
+        placeholder="Recipe"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="position-relative form-group"
+    >
+      <label
+        class=""
+        for="serve"
+      >
+        Serve
+      </label>
+      <textarea
+        class="form-control"
+        id="serve"
+        name="serve"
+      />
+    </div>
+    <button
+      class="btn btn-secondary"
+    >
+      Submit
+    </button>
+  </form>
+</DocumentFragment>
+`;

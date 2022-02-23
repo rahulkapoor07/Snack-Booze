@@ -1,0 +1,21 @@
+{
+  "name": "snack-booze",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "server.js",
+  "engines": {
+    "npm" : "8.1.2",
+    "node":"16.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild" : "cd snack-or-booze && npm install && npm run build"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "json-server": "^0.17.0"
+  }
+}

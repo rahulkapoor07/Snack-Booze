@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App page testing snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <p>
+      Loading …
+    </p>
+  </div>
+</DocumentFragment>
+`;
